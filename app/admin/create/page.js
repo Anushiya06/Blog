@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { defaultBlogs } from '@/data/defaultBlogs';
-
+import './create.css';
 
 export default function CreateBlog() {
   const [title, setTitle] = useState('');

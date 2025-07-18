@@ -35,22 +35,22 @@ export default function HomePage() {
         <section className="blogs-preview">
           <h2>Latest Blog Posts</h2>
           <div className="blog-cards">
-            <div className="blog-card" onClick={() => router.push('/blogs')}>
-              <h3>Getting Started with Next.js</h3>
-              <p>Learn the basics of Next.js framework...</p>
-              <span className="read-more">Read More →</span>
-            </div>
-            <div className="blog-card" onClick={() => router.push('/blogs')}>
-              <h3>Understanding React Hooks</h3>
-              <p>Master React Hooks for better components...</p>
-              <span className="read-more">Read More →</span>
-            </div>
-            <div className="blog-card" onClick={() => router.push('/blogs')}>
-              <h3>CSS Grid vs Flexbox</h3>
-              <p>Learn when to use Grid and Flexbox...</p>
-              <span className="read-more">Read More →</span>
-            </div>
-          </div>
+         <div className="blog-card" onClick={() => router.push('/blogs')}>
+           <h3>The Beauty of Forests</h3>
+              <p>Explore how forests support life and offer peace...</p>
+            <span className="read-more">Read More →</span>
+         </div>
+        <div className="blog-card" onClick={() => router.push('/blogs')}>
+           <h3>Understanding Rainfall Patterns</h3>
+           <p>Discover how rain shapes ecosystems and agriculture...</p>
+           <span className="read-more">Read More →</span>
+        </div>
+      <div className="blog-card" onClick={() => router.push('/blogs')}>
+          <h3>Mountains and Their Majesty</h3>
+          <p>Learn how mountains inspire adventure and sustain life...</p>
+         <span className="read-more">Read More →</span>
+      </div>
+       </div>
           <div className="view-all-section">
             <button 
               className="view-all-btn" 

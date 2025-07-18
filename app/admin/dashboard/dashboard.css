@@ -1,0 +1,103 @@
+.admin-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.admin-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.admin-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-btn:hover {
+  background-color: #2980b9;
+}
+
+.admin-btn.create {
+  background-color: blue;
+}
+
+.admin-btn.create:hover {
+  background-color: blue;
+}
+
+.blog-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.blog-item {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid #3498db;
+}
+
+.blog-item-title {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.blog-item-content {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.blog-item-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.blog-item-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.blog-item-btn.edit {
+  background-color: #f39c12;
+}
+
+.blog-item-btn.edit:hover {
+  background-color: #e67e22;
+}
+
+.blog-item-btn.delete {
+  background-color: #e74c3c;
+}
+
+.blog-item-btn.delete:hover {
+  background-color: #c0392b;
+}

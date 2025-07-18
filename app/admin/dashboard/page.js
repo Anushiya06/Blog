@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-
+import './dashboard.css';
 export default function AdminDashboard() {
   const [blogs, setBlogs] = useState([]);
   const router = useRouter();
